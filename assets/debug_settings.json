@@ -1,0 +1,6 @@
+{
+    "PRINT_COMMANDS": false,
+    "PRINT_USERS": false,
+    "PRINT": true,
+    "ALLOW_TABLE_DROP": false
+}

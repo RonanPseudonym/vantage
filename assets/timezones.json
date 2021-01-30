@@ -1,0 +1,19 @@
+{
+    "Australia Eastern Standard Time": ["Sydney", 10],
+    "Australia Central Standard Time": ["Darwin", 9.5],
+    "Afghanistan Time": ["Afghanistan", 4.5],
+    "Alaska Standard Time": ["Alaska", 9],
+    "Atlantic Standard Time": ["US Virgin Islands", -4],
+    "Australia Western Standard Time": ["Perth", 9],
+    "Central Africa Time": ["Sudan", 2],
+    "Central European Time": ["France", 1],
+    "Central Standard Time": ["Texas", -6],
+    "East Africa Time": ["Ethiopia", 3],
+    "Eastern European Time": ["Finland", 2],
+    "Eastern Standard Time": ["New York", -5],
+    "Moscow Standard Time": ["Moscow", 3],
+    "Mountain Standard Time": ["Arizona", -7],
+    "Pacific Standard Time": ["California", -8],
+    "West Africa Time": ["Nigeria", 1],
+    "Western European Time": ["The UK", 0]
+}

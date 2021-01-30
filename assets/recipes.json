@@ -1,0 +1,281 @@
+{
+   "hamburger":{
+      "bread":1,
+      "lettuce":1,
+      "tomato":1,
+      "meat":1
+   },
+   "pizza":{
+      "bread":1,
+      "tomato":1,
+      "cheese":1
+   },
+   "bread":{
+      "wheat":4,
+      "egg":1
+   },
+   "cheese":{
+      "milk":3
+   },
+   "pretzel":{
+      "bread":2,
+      "milk":1
+   },
+   "salad":{
+      "lettuce":1,
+      "cucumber":1,
+      "tomato":1
+   },
+   "cake":{
+      "egg":1,
+      "milk":2,
+      "wheat":4,
+      "berry":2
+   },
+   "cupcake":{
+      "egg":1,
+      "milk":1,
+      "wheat":2,
+      "berry":1
+   },
+   "cookie":{
+      "milk":1,
+      "wheat":2
+   },
+   "sushi":{
+      "rice":4,
+      "fish":1
+   },
+   "tamale":{
+      "corn":2,
+      "meat":1
+   },
+   "fries":{
+      "potato":2
+   },
+   "popcorn":{
+      "corn":2
+   },
+   "burrito":{
+      "meat":1,
+      "corn":2,
+      "pepper":1
+   },
+   "hotdog":{
+      "bread":1,
+      "meat":1
+   },
+   "juice":{
+      "apple":2
+   },
+   "soda":{
+      "orange":2
+   },
+   "sandwich":{
+      "bread":2,
+      "tomato":1,
+      "lettuce":1
+   },
+   "cooked rice":{
+      "rice":2
+   },
+   "cheese sandwich":{
+      "cheese":1,
+      "sandwich":1
+   },
+   "strawberry milk":{
+      "strawberry":1,
+      "milk":1
+   },
+   "carrot cake":{
+      "carrot":1,
+      "cake":1
+   },
+   "pie":{
+      "egg":2,
+      "wheat":3
+   },
+   "apple pie":{
+      "apple":2,
+      "pie":1
+   },
+   "parfait":{
+      "milk":1,
+      "berry":2
+   },
+   "scrambled egg":{
+      "egg":2
+   },
+   "banana bread":{
+      "banana":2,
+      "bread":1
+   },
+   "garlic bread":{
+      "garlic":2,
+      "bread":1
+   },
+   "garlic broccoli":{
+      "garlic":1,
+      "broccoli":2
+   },
+   "fried rice":{
+      "cooked rice":1,
+      "broccoli":2
+   },
+   "orange juice":{
+      "orange":2,
+      "juice":1
+   },
+   "lemonade":{
+      "lemon":2,
+      "juice":1
+   },
+   "spicy burrito":{
+      "pepper":2,
+      "burrito":1
+   },
+   "hut":{
+      "log":5
+   },
+   "house":{
+      "log":10,
+      "stone":2
+   },
+   "tent":{
+      "log":3,
+      "stone":1
+   },
+   "condo":{
+      "stone":20,
+      "iron":50,
+      "tin":50
+   },
+   "bank":{
+      "stone":100,
+      "iron":10
+   },
+   "well":{
+      "stone":20,
+      "bucket":1
+   },
+   "quarry":{
+      "stone":20,
+      "log":10
+   },
+   "farm":{
+      "stone":20,
+      "iron":10
+   },
+   "bronze":{
+      "copper":2,
+      "tin":1
+   },
+   "steel":{
+      "iron":4,
+      "log":1
+   },
+   "bucket":{
+      "log":5
+   },
+   "goat cheese":{
+      "goat milk":2
+   },
+   "goat milk soap":{
+      "goat milk":2,
+      "water":1
+   },
+   "pillow":{
+      "yarn":2,
+      "feather":100
+   },
+   "yarn":{
+      "wool":2
+   },
+   "pants":{
+      "yarn":10
+   },
+   "shirt":{
+      "yarn":5
+   },
+   "jacket":{
+      "yarn":20
+   },
+   "gloves":{
+      "yarn":3
+   },
+   "teddy bear":{
+      "yarn":10,
+      "feather":50,
+      "wool":5
+   },
+   "alpaca yarn":{
+      "alpaca wool":2
+   },
+   "alpaca pants":{
+      "alpaca yarn":10
+   },
+   "alpaca shirt":{
+      "alpaca yarn":5
+   },
+   "alpaca jacket":{
+      "alpaca yarn":20
+   },
+   "alpaca hat":{
+      "alpaca yarn":3
+   },
+   "alpaca dress":{
+      "alpaca yarn":15
+   },
+   "alpaca gloves":{
+      "alpaca yarn":2
+   },
+   "alpaca scarf":{
+      "alpaca yarn":5
+   },
+   "camel yarn":{
+      "camel wool":2
+   },
+   "camel pants":{
+      "camel yarn":10
+   },
+   "camel shirt":{
+      "camel yarn":5
+   },
+   "camel jacket":{
+      "camel yarn":20
+   },
+   "camel scarf":{
+      "camel yarn":4
+   },
+   "toolkit":{
+      "steel":5,
+      "copper":2
+   },
+   "sword":{
+      "steel":20
+   },
+   "axe":{
+      "steel":10,
+      "bronze":1,
+      "log":10
+   },
+   "shield":{
+      "steel":20,
+      "bronze":5
+   },
+   "paperclip":{
+      "steel":1
+   },
+   "paper":{
+      "log":2
+   },
+   "notebook":{
+      "paper":15
+   },
+   "book":{
+      "paper":20
+   },
+   "pencil":{
+      "log":2
+   }
+}

@@ -1,0 +1,2 @@
+# Vantage.js
+Vantage is a unique economy bot, created by Ronan Underwood. Although initially written in `Discord.py`, the code became such a mess that calling it trash would be insulting to the members of the fine dumps of America. After a hiatus roughly equivilent to the length of time spent producing the initial bot, a rewrite was in order. Instead of rewriting the bot in a simple, clean language that the author knew well, he instead chose that this was a great opportunity to learn Node.js. What follows is a result of that momentous and very stupid decision.

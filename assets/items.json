@@ -1,0 +1,1597 @@
+{
+    "eastwood": {
+        "emoji": "🏞",
+        "description": "A forest land",
+        "sale_price": 75,
+        "properties": {
+            "land": null
+        }
+    },
+
+    "luminar": {
+        "emoji": "🏞",
+        "description": "A land by the sea",
+        "sale_price": 75,
+        "properties": {
+            "land": null
+        }
+    },
+
+    "safling": {
+        "emoji": "🏞",
+        "description": "A mountainous land",
+        "sale_price": 75,
+        "properties": {
+            "land": null
+        }
+    },
+
+    "aragan": {
+        "emoji": "🏞",
+        "description": "A desert land",
+        "sale_price": 75,
+        "properties": {
+            "land": null
+        }
+    },
+
+    "log": {
+        "emoji": "🪵",
+        "description": "An oak log, quite useful for construction.",
+        "sale_price": 2,
+        "properties": {
+            "construction": null,
+            "buy": null
+        },
+        "gather": {
+            "eastwood": 50,
+            "luminar": 10,
+            "safling": 20,
+            "aragan": 5
+        }
+    },
+
+    "water": {
+        "emoji": "💧",
+        "description": "Quite important, unless you enjoy dying",
+        "sale_price": 3,
+        "properties": {
+            "drink": 3,
+            "buy": null
+        },
+        "gather": {
+            "eastwood": 20,
+            "luminar": 50,
+            "safling": 15,
+            "aragan": 5
+        }
+    },
+
+    "stone": {
+        "emoji": "🪨",
+        "description": "A vital asset in... really old buildings? Look, realism isn't this game's strongest point.",
+        "sale_price": 5,
+        "properties": {
+            "construction": null,
+            "buy": null
+        },
+        "gather": {
+            "eastwood": 15,
+            "luminar": 10,
+            "safling": 30,
+            "aragan": 40
+        }
+    },
+
+    "carrot": {
+        "emoji": "🥕",
+        "description": "A long, orange thing that grows in the ground. People like to eat it, apparently. I wouldn't know.",
+        "sale_price": 3,
+        "properties": {
+            "food": 2,
+            "buy": null
+        },
+        "gather": {
+            "eastwood": 5,
+            "luminar": 4,
+            "safling": 3,
+            "aragan": 1
+        }
+    },
+
+    "apple": {
+        "emoji": "🍎",
+        "description": "Shiny, round and palatable.",
+        "sale_price": 4,
+        "properties": {
+            "food": 3,
+            "buy": null
+        },
+        "gather": {
+            "eastwood": 5,
+            "luminar": 4,
+            "safling": 3,
+            "aragan": 1
+        }
+    },
+
+    "corn": {
+        "emoji": "🌽",
+        "description": "A hunk of a husk of corn.",
+        "sale_price": 4,
+        "properties": {
+            "food": 4,
+            "buy": null
+        },
+        "gather": {
+            "eastwood": 5,
+            "luminar": 15,
+            "safling": 5,
+            "aragan": 1
+        }
+    },
+
+    "potato": {
+        "emoji": "🥔",
+        "description": "Potatœ™",
+        "sale_price": 5,
+        "properties": {
+            "food": 5,
+            "buy": null
+        },
+        "gather": {
+            "eastwood": 15,
+            "luminar": 10,
+            "safling": 15,
+            "aragan": 2
+        }
+    },
+
+    "meat": {
+        "emoji": "🥩",
+        "description": "Animal corpse! Yay!",
+        "sale_price": 6,
+        "properties": {
+            "food": 6,
+            "buy": null
+        }
+    },
+
+    "cactus": {
+        "emoji": "🌵",
+        "description": "Both food and water! What's not to love?",
+        "sale_price": 5,
+        "properties": {
+            "food": 3,
+            "drink": 2,
+            "buy": null
+        },
+        "gather": {
+            "eastwood": 0,
+            "luminar": 0,
+            "safling": 0,
+            "aragan": 60
+        }
+    },
+
+    "berry": {
+        "emoji": "🫐",
+        "description": "They're not blueberries, they're... magic generic berries!",
+        "sale_price": 2,
+        "properties": {
+            "food": 2,
+            "buy": null
+        },
+        "gather": {
+            "eastwood": 20,
+            "luminar": 0,
+            "safling": 0,
+            "aragan": 0
+        }
+    },
+
+    "fish": {
+        "emoji": "🐠",
+        "description": "*grabs fish* hi this is a fish",
+        "sale_price": 4,
+        "properties": {
+            "food": 4,
+            "buy": null
+        },
+        "gather": {
+            "eastwood": 0,
+            "luminar": 10,
+            "safling": 0,
+            "aragan": 0
+        }
+    },
+
+    "small fish": {
+        "emoji": "🐟",
+        "description": "Smøl fish",
+        "sale_price": 2,
+        "properties": {
+            "food": 2,
+            "buy": null
+        },
+        "gather": {
+            "eastwood": 0,
+            "luminar": 20,
+            "safling": 0,
+            "aragan": 0
+        }
+    },
+
+    "crab": {
+        "emoji": "🦀",
+        "description": "Haha crab go brrr",
+        "sale_price": 6,
+        "properties": {
+            "food": 6,
+            "buy": null
+        },
+        "gather": {
+            "eastwood": 0,
+            "luminar": 3,
+            "safling": 0,
+            "aragan": 0
+        }
+    },
+
+    "lobster": {
+        "emoji": "🦞",
+        "description": "Lobsters are basically long crabs",
+        "sale_price": 7,
+        "properties": {
+            "food": 8,
+            "buy": null
+        },
+        "gather": {
+            "eastwood": 0,
+            "luminar": 2,
+            "safling": 0,
+            "aragan": 0
+        }
+    },
+
+    "oyster": {
+        "emoji": "🦪",
+        "description": "A grey, circularish, upsetting freak of nature.",
+        "sale_price": 6,
+        "properties": {
+            "food": 3,
+            "buy": null
+        },
+        "gather": {
+            "eastwood": 0,
+            "luminar": 5,
+            "safling": 0,
+            "aragan": 0
+        }
+    },
+
+    "shrimp": {
+        "emoji": "🦐",
+        "description": "Shrimps look like those cliched giant aliens that want to destroy the world",
+        "sale_price": 3,
+        "properties": {
+            "food": 2,
+            "buy": null
+        },
+        "gather": {
+            "eastwood": 0,
+            "luminar": 5,
+            "safling": 0,
+            "aragan": 0
+        }
+    },
+
+    "squid": {
+        "emoji": "🦑",
+        "description": "Squids look like upsetting tentacle aliens",
+        "sale_price": 20,
+        "properties": {
+            "food": 30,
+            "buy": null
+        },
+        "gather": {
+            "eastwood": 0,
+            "luminar": 1,
+            "safling": 0,
+            "aragan": 0
+        }
+    },
+
+    "flower": {
+        "emoji": "🌷",
+        "description": "Not particularly useful, but it sure is pretty!",
+        "sale_price": 5,
+        "properties": {
+            "food": 1,
+            "buy": null
+        },
+        "gather": {
+            "eastwood": 0,
+            "luminar": 0,
+            "safling": 20,
+            "aragan": 0
+        }
+    },
+
+    "lotus": {
+        "emoji": "🌸",
+        "description": "Incredibly rare, but incredibly valuable.",
+        "sale_price": 50,
+        "properties": {
+            "food": 2,
+            "buy": null
+        },
+        "gather": {
+            "eastwood": 0,
+            "luminar": 0,
+            "safling": 0,
+            "aragan": 1
+        }
+    },
+
+    "egg": {
+        "emoji": "🥚",
+        "description": "Chicken extrusion",
+        "sale_price": 5,
+        "properties": {
+            "food": 2,
+            "buy": null
+        },
+        "gather": {
+            "eastwood": 15,
+            "luminar": 15,
+            "safling": 9,
+            "aragan": 3
+        }
+    },
+
+    "milk": {
+        "emoji": "🥛",
+        "description": "Convenient how milk comes in a nice glass like this",
+        "sale_price": 4,
+        "properties": {
+            "water": 2,
+            "buy": null
+        },
+        "gather": {
+            "eastwood": 5,
+            "luminar": 3,
+            "safling": 7,
+            "aragan": 1
+        }
+    },
+
+    "wheat": {
+        "emoji": "🌾",
+        "description": "Yeah, go ahead and just eat wheat raw. Who's gonna stop you?",
+        "sale_price": 1,
+        "properties": {
+            "food": 1,
+            "buy": null
+        },
+        "gather": {
+            "eastwood": 10,
+            "luminar": 10,
+            "safling": 20,
+            "aragan": 2
+        }
+    },
+
+    "hamburger": {
+        "emoji": "🍔",
+        "description": "It's a... hamburger. Writing these is hard, okay?",
+        "sale_price": 25,
+        "properties": {
+            "food": 6
+        }
+    },
+
+    "onion": {
+        "emoji": "🧅",
+        "description": "Do you just... eat onions? Do you put something on them? This is a pressing issue.",
+        "sale_price": 5,
+        "properties": {
+            "food": 3,
+            "buy": null
+        },
+        "gather": {
+            "eastwood": 2,
+            "luminar": 2,
+            "safling": 2,
+            "aragan": 1
+        }
+    },
+
+    "tomato": {
+        "emoji": "🍅",
+        "description": "Ketchup should be called tomato juice",
+        "sale_price": 2,
+        "properties": {
+            "food": 2,
+            "buy": null
+        },
+        "gather": {
+            "eastwood": 2,
+            "luminar": 2,
+            "safling": 2,
+            "aragan": 1
+        }
+    },
+
+    "pizza": {
+        "emoji": "🍕",
+        "description": "PIZZA. YES. PIZZAAAAAAAAA.",
+        "sale_price": 30,
+        "properties": {
+            "food": 5
+        }
+    },
+
+    "bread": {
+        "emoji": "🍞",
+        "description": "Everyone loves bread, except for the people who don't. You're welcome.",
+        "sale_price": 11,
+        "properties": {
+            "food": 3
+        }
+    },
+
+    "banana": {
+        "emoji": "🍌",
+        "description": "I'd make a joke about being bananas for bananas, but I'm tired of writing these",
+        "sale_price": 3,
+        "properties": {
+            "food": 2,
+            "buy": null
+        },
+        "gather": {
+            "eastwood": 2,
+            "luminar": 2,
+            "safling": 0,
+            "aragan": 0
+        }
+    },
+
+    "garlic": {
+        "emoji": "🧄",
+        "description": "Keep the vampires away!",
+        "sale_price": 2,
+        "properties": {
+            "food": 1,
+            "buy": null
+        },
+        "gather": {
+            "eastwood": 2,
+            "luminar": 2,
+            "safling": 2,
+            "aragan": 1
+        }
+    },
+
+    "rice": {
+        "emoji": "🌾",
+        "description": "Rice is nice, but it has a low sale price",
+        "sale_price": 1,
+        "properties": {
+            "food": 3,
+            "buy": null
+        },
+        "gather": {
+            "eastwood": 10,
+            "luminar": 20,
+            "safling": 10,
+            "aragan": 2
+        }
+    },
+
+    "cheese": {
+        "emoji": "🧀",
+        "description": "Just shove some milk together, and... cheese! Amazing, right? I wonder where the milk goes.",
+        "sale_price": 12,
+        "properties": {
+            "food": 3
+        }
+    },
+
+    "pretzel": {
+        "emoji": "🥨",
+        "description": "These should really be called bretzen, but that's hard to spell.",
+        "sale_price": 20,
+        "properties": {
+            "food": 5
+        }
+    },
+
+    "lettuce": {
+        "emoji": "🥬",
+        "description": "Edible leafs",
+        "sale_price": 2,
+        "properties": {
+            "food": 1,
+            "buy": null
+        },
+        "gather": {
+            "eastwood": 7,
+            "luminar": 7,
+            "safling": 7,
+            "aragan": 1
+        }
+    },
+
+    "cucumber": {
+        "emoji": "🥒",
+        "description": "Green stick",
+        "sale_price": 2,
+        "properties": {
+            "food": 2,
+            "buy": null
+        },
+        "gather": {
+            "eastwood": 5,
+            "luminar": 5,
+            "safling": 5,
+            "aragan": 1
+        }
+    },
+
+    "salad": {
+        "emoji": "🥗",
+        "description": "Compiled leaves",
+        "sale_price": 18,
+        "properties": {
+            "food": 5
+        }
+    },
+
+    "cake": {
+        "emoji": "🍰",
+        "description": "Delicious!",
+        "sale_price": 22,
+        "properties": {
+            "food": 7
+        }
+    },
+
+    "cupcake": {
+        "emoji": "🧁",
+        "description": "Deliciously delicious",
+        "sale_price": 15,
+        "properties": {
+            "food": 4
+        }
+    },
+
+    "cookie": {
+        "emoji": "🍪",
+        "description": "Is there anything better than a delicious, gooey, chocolate-chip cookie?",
+        "sale_price": 17,
+        "properties": {
+            "food": 5
+        }
+    },
+
+    "sushi": {
+        "emoji": "🍣",
+        "description": "*clears throat* SUSHIIIII!",
+        "sale_price": 20,
+        "properties": {
+            "food": 6
+        }
+    },
+
+    "fries": {
+        "emoji": "🍟",
+        "description": "Fries. Amazing.",
+        "sale_price": 11,
+        "properties": {
+            "food": 4
+        }
+    },
+
+    "popcorn": {
+        "emoji": "🍿",
+        "description": "*popping noises*",
+        "sale_price": 12,
+        "properties": {
+            "food": 3
+        }
+    },
+
+    "tamale": {
+        "emoji": "🫔",
+        "description": "ye",
+        "sale_price": 15,
+        "properties": {
+            "food": 6
+        }
+    },
+
+    "hut": {
+        "emoji": "🛖",
+        "description": "A small living-space, without much to offer",
+        "sale_price": 20,
+        "properties": {
+            "people": 1
+        }
+    },
+
+    "house": {
+        "emoji": "🏠",
+        "description": "Plenty of room for 4!",
+        "sale_price": 50,
+        "properties": {
+            "people": 4
+        }
+    },
+
+    "castle": {
+        "emoji": "🏰",
+        "description": "More or less a big house",
+        "sale_price": 1000,
+        "properties": {
+            "people": 60
+        }
+    },
+
+    "tent": {
+        "emoji": "⛺️",
+        "description": "Great, if you love refugee camps",
+        "sale_price": 30,
+        "properties": {
+            "people": 1
+        }
+    },
+
+    "tent": {
+        "emoji": "⛺️",
+        "description": "Great, if you love refugee camps",
+        "sale_price": 30,
+        "properties": {
+            "people": 1
+        }
+    },
+
+    "condo": {
+        "emoji": "🏢",
+        "description": "Ooh, fancy",
+        "sale_price": 800,
+        "properties": {
+            "people": 40
+        }
+    },
+
+    "well": {
+        "emoji": "⛲",
+        "description": "A great source of water for your village",
+        "sale_price": 50,
+        "properties": {
+            "well": null
+        }
+    },
+
+    "quarry": {
+        "emoji": "⛏️",
+        "description": "Precious metals! (And lots of stone)",
+        "sale_price": 100,
+        "properties": {
+            "mine": null
+        }
+    },
+
+    "farm": {
+        "emoji": "🚜",
+        "description": "A great way to grow fruit/vegetables",
+        "sale_price": 100,
+        "properties": {
+            "farm": null
+        }
+    },
+
+    "basic package": {
+        "emoji": "📦",
+        "description": "A cheap but useful package",
+        "sale_price": 50,
+        "properties": {
+            "lootbox": null
+        }
+    },
+
+    "deluxe package": {
+        "emoji": "📦",
+        "description": "A decent package",
+        "sale_price": 100,
+        "properties": {
+            "lootbox": null
+        }
+    },
+
+    "advanced package": {
+        "emoji": "📦",
+        "description": "A quite good package",
+        "sale_price": 250,
+        "properties": {
+            "lootbox": null
+        }
+    },
+
+    "supreme package": {
+        "emoji": "📦",
+        "description": "An incredible package",
+        "sale_price": 500,
+        "properties": {
+            "lootbox": null
+        }
+    },
+
+    "broccoli": {
+        "emoji": "🥦",
+        "description": "Little green tree-things",
+        "sale_price": 2,
+        "properties": {
+            "food": 1
+        },
+        "gather": {
+            "eastwood": 2,
+            "luminar": 2,
+            "safling": 2,
+            "aragan": 1
+        }
+    },
+
+    "pear": {
+        "emoji": "🍐",
+        "description": "Bulb-shaped thing",
+        "sale_price": 3,
+        "properties": {
+            "food": 2
+        },
+        "gather": {
+            "eastwood": 2,
+            "luminar": 2,
+            "safling": 2,
+            "aragan": 1
+        }
+    },
+
+    "orange": {
+        "emoji": "🍊",
+        "description": "Orange!",
+        "sale_price": 2,
+        "properties": {
+            "food": 2
+        },
+        "gather": {
+            "eastwood": 2,
+            "luminar": 2,
+            "safling": 2,
+            "aragan": 1
+        }
+    },
+
+    "lemon": {
+        "emoji": "🍋",
+        "description": "Dang, that's sour",
+        "sale_price": 1,
+        "properties": {
+            "food": 1
+        },
+        "gather": {
+            "eastwood": 2,
+            "luminar": 2,
+            "safling": 2,
+            "aragan": 1
+        }
+    },
+
+    "watermelon": {
+        "emoji": "🍉",
+        "description": "Materwelon!",
+        "sale_price": 2,
+        "properties": {
+            "food": 3
+        },
+        "gather": {
+            "eastwood": 2,
+            "luminar": 2,
+            "safling": 2,
+            "aragan": 1
+        }
+    },
+
+    "grapes": {
+        "emoji": "🍇",
+        "description": "Fermenting these? Maybe in an update!",
+        "sale_price": 3,
+        "properties": {
+            "food": 2
+        },
+        "gather": {
+            "eastwood": 2,
+            "luminar": 2,
+            "safling": 2,
+            "aragan": 1
+        }
+    },
+
+    "mango": {
+        "emoji": "🥭",
+        "description": "I don't trust anyone who dislikes mangos",
+        "sale_price": 4,
+        "properties": {
+            "food": 2
+        },
+        "gather": {
+            "eastwood": 2,
+            "luminar": 2,
+            "safling": 2,
+            "aragan": 1
+        }
+    },
+
+    "strawberry": {
+        "emoji": "🍓",
+        "description": "These are worth a lot!",
+        "sale_price": 5,
+        "properties": {
+            "food": 2
+        },
+        "gather": {
+            "eastwood": 2,
+            "luminar": 2,
+            "safling": 2,
+            "aragan": 1
+        }
+    },
+
+    "kiwi": {
+        "emoji": "🥝",
+        "description": "No, not the bird.",
+        "sale_price": 3,
+        "properties": {
+            "food": 2
+        },
+        "gather": {
+            "eastwood": 2,
+            "luminar": 2,
+            "safling": 2,
+            "aragan": 1
+        }
+    },
+
+    "cherries": {
+        "emoji": "🍒",
+        "description": "Delicious!",
+        "sale_price": 5,
+        "properties": {
+            "food": 1
+        },
+        "gather": {
+            "eastwood": 2,
+            "luminar": 2,
+            "safling": 2,
+            "aragan": 1
+        }
+    },
+
+    "pepper": {
+        "emoji": "🌶",
+        "description": "SPICY!",
+        "sale_price": 3,
+        "properties": {
+            "food": 1
+        },
+        "gather": {
+            "eastwood": 2,
+            "luminar": 2,
+            "safling": 2,
+            "aragan": 1
+        }
+    },
+
+    "bell pepper": {
+        "emoji": "🫑",
+        "description": "Green bell-thing.",
+        "sale_price": 5,
+        "properties": {
+            "food": 3,
+            "buy": null
+        },
+        "gather": {
+            "eastwood": 2,
+            "luminar": 2,
+            "safling": 2,
+            "aragan": 1
+        }
+    },
+
+    "burrito": {
+        "emoji": "🌯",
+        "description": "Ah yes, the humble burrito. Truely a majestic creature.",
+        "sale_price": 18,
+        "properties": {
+            "food": 8
+        }
+    },
+
+    "hotdog": {
+        "emoji": "🌭",
+        "description": "No dogs were harmed in the making of this meaty abomination",
+        "sale_price": 15,
+        "properties": {
+            "food": 7
+        }
+    },
+
+    "bucket": {
+        "emoji": "🪣",
+        "description": "A wooden bucket, useful for wells",
+        "sale_price": 18,
+        "properties": {
+            "construction": null
+        }
+    },
+
+    "feather": {
+        "emoji": "🪶",
+        "description": "What it sounds like.",
+        "sale_price": 1,
+        "properties": {
+            "construction": null,
+            "buy": null
+        }
+    },
+
+    "wool": {
+        "emoji": "🧶",
+        "description": "Sheep floof",
+        "sale_price": 10,
+        "properties": {
+            "construction": null
+        }
+    },
+
+    "pants": {
+        "emoji": "👖",
+        "description": "Comfy!",
+        "sale_price": 350,
+        "properties": {
+            "clothes": null
+        }
+    },
+
+    "shirt": {
+        "emoji": "👕",
+        "description": "A comfortable wool shirt",
+        "sale_price": 200,
+        "properties": {
+            "clothes": null
+        }
+    },
+
+    "jacket": {
+        "emoji": "🧥",
+        "description": "Stylish! No wonder it's worth so much.",
+        "sale_price": 700,
+        "properties": {
+            "clothes": null
+        }
+    },
+
+    "gloves": {
+        "emoji": "🧤",
+        "description": "Quite comfy, and lightweight",
+        "sale_price": 100,
+        "properties": {
+            "clothes": null
+        }
+    },
+
+    "teddy bear": {
+        "emoji": "🧸",
+        "description": "SO CUTE",
+        "sale_price": 400,
+        "properties": {
+            "clothes": null
+        }
+    },
+
+    "alpaca yarn": {
+        "emoji": "🧶",
+        "description": "Alpaca floof",
+        "sale_price": 15,
+        "properties": {
+            "construction": null
+        }
+    },
+
+    "alpaca pants": {
+        "emoji": "👖",
+        "description": "Comfy pants, but with extra alpaca for variety!",
+        "sale_price": 400,
+        "properties": {
+            "clothes": null
+        }
+    },
+
+    "alpaca shirt": {
+        "emoji": "👕",
+        "description": "A comfortable alpaca shirt",
+        "sale_price": 250,
+        "properties": {
+            "clothes": null
+        }
+    },
+
+    "alpaca jacket": {
+        "emoji": "🧥",
+        "description": "I don't think I've ever seen an alpaca jacket, but they sound amazing",
+        "sale_price": 750,
+        "properties": {
+            "clothes": null
+        }
+    },
+
+    "alpaca gloves": {
+        "emoji": "🧤",
+        "description": "Quite comfy, and lightweight",
+        "sale_price": 120,
+        "properties": {
+            "clothes": null
+        }
+    },
+
+    "alpaca dress": {
+        "emoji": "👗",
+        "description": "Stylish!",
+        "sale_price": 600,
+        "properties": {
+            "clothes": null
+        }
+    },
+
+    "alpaca scarf": {
+        "emoji": "🧣",
+        "description": "Warm and cozy",
+        "sale_price": 400,
+        "properties": {
+            "clothes": null
+        }
+    },
+
+    "alpaca hat": {
+        "emoji": "🧢",
+        "description": "You can't not love alpaca hats.",
+        "sale_price": 300,
+        "properties": {
+            "clothes": null
+        }
+    },
+
+    "camel yarn": {
+        "emoji": "🧶",
+        "description": "Camel floof",
+        "sale_price": 20,
+        "properties": {
+            "construction": null
+        }
+    },
+
+    "camel pants": {
+        "emoji": "👖",
+        "description": "Comfy!",
+        "sale_price": 450,
+        "properties": {
+            "clothes": null
+        }
+    },
+
+    "camel shirt": {
+        "emoji": "👕",
+        "description": "A comfortable wool shirt",
+        "sale_price": 300,
+        "properties": {
+            "clothes": null
+        }
+    },
+
+    "camel jacket": {
+        "emoji": "🧥",
+        "description": "Stylish! No wonder it's worth so much.",
+        "sale_price": 800,
+        "properties": {
+            "clothes": null
+        }
+    },
+
+    "camel gloves": {
+        "emoji": "🧤",
+        "description": "Quite comfy, and lightweight",
+        "sale_price": 200,
+        "properties": {
+            "clothes": null
+        }
+    },
+
+    "camel scarf": {
+        "emoji": "🧣",
+        "description": "Camels = hot. Scarf = cold. Logic = n/a.",
+        "sale_price": 500,
+        "properties": {
+            "clothes": null
+        }
+    },
+
+    "goat cheese": {
+        "emoji": "🧀",
+        "description": "Weird cheese",
+        "sale_price": 25,
+        "properties": {
+            "food": 6
+        }
+    },
+
+    "goat milk": {
+        "emoji": "🥛",
+        "description": "Weird milk",
+        "sale_price": 10,
+        "properties": {
+            "drink": 2
+        }
+    },
+
+    "goat milk soap": {
+        "emoji": "🧼",
+        "description": "Weird soap",
+        "sale_price": 75,
+        "properties": {
+            "item": null
+        }
+    },
+
+    "toolkit": {
+        "emoji": "🔧",
+        "description": "Good for selling for profit",
+        "sale_price": 500,
+        "properties": {
+            "item": null
+        }
+    },
+
+    "sword": {
+        "emoji": "🗡",
+        "description": "There's no combat involved in this game. Making and selling swords is just a money-making strategy.",
+        "sale_price": 1000,
+        "properties": {
+            "item": null
+        }
+    },
+
+    "axe": {
+        "emoji": "🪓",
+        "description": "There's no combat involved in this game. Making and selling swords is just a money-making strategy.",
+        "sale_price": 700,
+        "properties": {
+            "item": null
+        }
+    },
+
+    "shield": {
+        "emoji": "🛡",
+        "description": "There's no combat involved in this game. Making and selling swords is just a money-making strategy.",
+        "sale_price": 1200,
+        "properties": {
+            "item": null
+        }
+    },
+
+    "paperclip": {
+        "emoji": "📎",
+        "description": "Invaluable for... paperclip things",
+        "sale_price": 10,
+        "properties": {
+            "item": null
+        }
+    },
+
+    "paper": {
+        "emoji": "📃",
+        "description": "So useful in a... city-building game",
+        "sale_price": 5,
+        "properties": {
+            "item": null
+        }
+    },
+
+    "paper": {
+        "emoji": "📓",
+        "description": "Botenook",
+        "sale_price": 200,
+        "properties": {
+            "item": null
+        }
+    },
+
+    "book": {
+        "emoji": "📖",
+        "description": "Don't forget to read, kids",
+        "sale_price": 300,
+        "properties": {
+            "item": null
+        }
+    },
+
+    "pencil": {
+        "emoji": "✏️",
+        "description": "Charcoal stick",
+        "sale_price": 10,
+        "properties": {
+            "item": null
+        }
+    },
+
+    "juice": {
+        "emoji": "🧃",
+        "description": "Palatable liquid",
+        "sale_price": 12,
+        "properties": {
+            "water": 3
+        }
+    },
+
+    "soda": {
+        "emoji": "🥤",
+        "description": "Delicious!",
+        "sale_price": 12,
+        "properties": {
+            "water": 3
+        }
+    },
+
+    "sandwich": {
+        "emoji": "🥪",
+        "description": "It tastes like a sandwich",
+        "sale_price": 15,
+        "properties": {
+            "food": 6
+        }
+    },
+
+    "cooked rice": {
+        "emoji": "🍚",
+        "description": "A bowl of delicious rice. Bowl and Delicious sold separately.",
+        "sale_price": 4,
+        "properties": {
+            "food": 6
+        }
+    },
+
+    "cheese sandwich": {
+        "emoji": "🧀🥪",
+        "description": "Just a beefed-up sandwich",
+        "sale_price": 18,
+        "properties": {
+            "food": 8
+        }
+    },
+
+    "strawberry milk": {
+        "emoji": "🍓🥛",
+        "description": "What's not to love?",
+        "sale_price": 6,
+        "properties": {
+            "water": 4
+        }
+    },
+
+    "carrot cake": {
+        "emoji": "🥕🍰",
+        "description": "It's a vegetable!",
+        "sale_price": 6,
+        "properties": {
+            "food": 7
+        }
+    },
+
+    "pie": {
+        "emoji": "🥧",
+        "description": "*description noises*",
+        "sale_price": 12,
+        "properties": {
+            "food": 6
+        }
+    },
+
+    "apple pie": {
+        "emoji": "🍎🥧",
+        "description": "Apple pie! It's to DIE for! (I'm sorry)",
+        "sale_price": 14,
+        "properties": {
+            "food": 7
+        }
+    },
+
+    "parfait": {
+        "emoji": "🫐🥛",
+        "description": "Blueberries + milk = parfait? Idk.",
+        "sale_price": 11,
+        "properties": {
+            "food": 6
+        }
+    },
+
+    "scrambled egg": {
+        "emoji": "🍳",
+        "description": "Eggs, but s p i c y",
+        "sale_price": 12,
+        "properties": {
+            "food": 5
+        }
+    },
+
+    "banana bread": {
+        "emoji": "🍌🍞",
+        "description": "Just... shove some bananas and white bread together, and poof!",
+        "sale_price": 13,
+        "properties": {
+            "food": 4
+        }
+    },
+
+    "garlic bread": {
+        "emoji": "🧄🍞",
+        "description": "Delicious vampire-repellant",
+        "sale_price": 11,
+        "properties": {
+            "food": 4
+        }
+    },
+
+    "garlic broccoli": {
+        "emoji": "🧄🥦",
+        "description": "Fancy-shmancy brocoli",
+        "sale_price": 9,
+        "properties": {
+            "food": 5
+        }
+    },
+
+    "fried rice": {
+        "emoji": "🍚🥦",
+        "description": "There's probably more than just broccoli in fried rice, but programming is hard, okay?",
+        "sale_price": 11,
+        "properties": {
+            "food": 8
+        }
+    },
+
+    "orange juice": {
+        "emoji": "🍊🧃",
+        "description": "Fresh orange juice is the best",
+        "sale_price": 10,
+        "properties": {
+            "water": 4
+        }
+    },
+
+    "lemonade": {
+        "emoji": "🍋🧃",
+        "description": "Sugar could be... helpful",
+        "sale_price": 9,
+        "properties": {
+            "water": 4
+        }
+    },
+
+    "spicy burrito": {
+        "emoji": "🌶🌯",
+        "description": "Oof, that's spicy!",
+        "sale_price": 20,
+        "properties": {
+            "food": 10
+        }
+    },
+
+    "chicken": {
+        "emoji": "🐓",
+        "description": "A useful and cheap farm animal",
+        "sale_price": 50,
+        "properties": {
+            "animal": null,
+            "buy": null
+        }
+    },
+
+    "sheep": {
+        "emoji": "🐑",
+        "description": "Great for getting wool",
+        "sale_price": 150,
+        "properties": {
+            "animal": null,
+            "buy": null
+        }
+    },
+
+    "goat": {
+        "emoji": "🐐",
+        "description": "Not very useful, unless you like goat milk",
+        "sale_price": 150,
+        "properties": {
+            "animal": null,
+            "buy": null
+        }
+    },
+
+    "alpaca": {
+        "emoji": "🦙",
+        "description": "You have to love alpacas",
+        "sale_price": 500,
+        "properties": {
+            "animal": null,
+            "buy": null
+        }
+    },
+
+    "cow": {
+        "emoji": "🐄",
+        "description": "All the milk you could ever want",
+        "sale_price": 500,
+        "properties": {
+            "animal": null,
+            "buy": null
+        }
+    },
+
+    "pig": {
+        "emoji": "🐖",
+        "description": "Quite useless, at least for farming",
+        "sale_price": 100,
+        "properties": {
+            "animal": null,
+            "buy": null
+        }
+    },
+
+    "turkey": {
+        "emoji": "🦃",
+        "description": "Useful only for feathers",
+        "sale_price": 100,
+        "properties": {
+            "animal": null,
+            "buy": null
+        }
+    },
+
+    "camel": {
+        "emoji": "🐪",
+        "description": "Camel milk!",
+        "sale_price": 200,
+        "properties": {
+            "animal": null,
+            "buy": null
+        }
+    },
+
+    "double camel": {
+        "emoji": "🐫",
+        "description": "A way fancier camel",
+        "sale_price": 1000,
+        "properties": {
+            "animal": null,
+            "buy": null
+        }
+    },
+
+    "iron": {
+        "emoji": "💎",
+        "description": "Pretty easy to come by, but vital in construction",
+        "sale_price": 5,
+        "properties": {
+            "metal": null,
+            "buy": null
+        }
+    },
+
+    "copper": {
+        "emoji": "💎",
+        "description": "An useful metal",
+        "sale_price": 10,
+        "properties": {
+            "metal": null,
+            "buy": null
+        }
+    },
+
+    "nickel": {
+        "emoji": "💎",
+        "description": "Not particularly useful, but worth a good bit",
+        "sale_price": 15,
+        "properties": {
+            "metal": null,
+            "buy": null
+        }
+    },
+
+    "tin": {
+        "emoji": "💎",
+        "description": "Not particularly useful, but worth a bit",
+        "sale_price": 20,
+        "properties": {
+            "metal": null,
+            "buy": null
+        }
+    },
+
+    "ruby": {
+        "emoji": "💎",
+        "description": "Quite valuable",
+        "sale_price": 200,
+        "properties": {
+            "metal": null,
+            "buy": null
+        }
+    },
+
+    "silver": {
+        "emoji": "💎",
+        "description": "Quite valuable",
+        "sale_price": 50,
+        "properties": {
+            "metal": null,
+            "buy": null
+        }
+    },
+
+    "gold": {
+        "emoji": "💎",
+        "description": "So... shiny...",
+        "sale_price": 100,
+        "properties": {
+            "metal": null,
+            "buy": null
+        }
+    },
+
+    "platinum": {
+        "emoji": "💎",
+        "description": "Wow, that's valuable!",
+        "sale_price": 200,
+        "properties": {
+            "metal": null
+        }
+    },
+
+    "bronze": {
+        "emoji": "💎",
+        "description": "A craftable metal, moderately useful",
+        "sale_price": 70,
+        "properties": {
+            "metal": null,
+            "buy": null
+        }
+    },
+
+    "steel": {
+        "emoji": "💎",
+        "description": "Quite useful and cheap",
+        "sale_price": 30,
+        "properties": {
+            "metal": null,
+            "buy": null
+        }
+    },
+
+    "diamond": {
+        "emoji": "💎",
+        "description": "That's a lot of money!",
+        "sale_price": 500,
+        "properties": {
+            "metal": null,
+            "buy": null
+        }
+    }
+}

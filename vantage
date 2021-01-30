@@ -1,0 +1,6 @@
+#! /usr/local/bin/node
+
+const process = require('process'); 
+
+process.chdir(__dirname+"/lib");
+const bot = require('./lib/bot.js');
